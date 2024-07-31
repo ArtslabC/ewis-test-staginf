@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "title": "About Us",
+   
+    "href": "/about-us",
+    "camPos": {
+      "x": 6.61,
+      "y": 3.89,
+      "z": 1.37
+    },
+    "lookAt": {
+      "x": 7.37,
+      "y": 3.27,
+      "z": 0.36
+    }
+  },
+  {
+    "id": 2,
+    "title": "EWIS Colombo Limited",
+    "href": "/colombo-limited",
+    "camPos": {
+      "x": 7.13,
+      "y": 4.33,
+      "z": 1.98
+    },
+    "lookAt": {
+      "x": -23,
+      "y": -2.5,
+      "z": 12
+    }
+  },
+  {
+    "id": 3,
+    "title": "EWIS Global Services",
+    "href": "/global-services",
+    "camPos": {
+      "x": 7.13,
+      "y": 1.15,
+      "z": 0.66
+    },
+    "lookAt": {
+      "x": 5.78,
+      "y": 0.89,
+      "z": 0.68
+    }
+  },
+  {
+    "id": 4,
+    "title": "EWIS Solutions",
+    "href": "/ewis-solutions",
+    "camPos": {
+      "x": 3,
+      "y": 4,
+      "z": 3
+    },
+    "lookAt": {
+      "x": 11,
+      "y": 0,
+      "z": 3.42
+    }
+  },
+  {
+    "id": 5,
+    "title": "Career Training Solutions",
+    "href": "/career-training-solutions",
+    "camPos": {
+      "x": 5,
+      "y": 1,
+      "z": 7
+    },
+    "lookAt": {
+      "x": 8,
+      "y": -2.5,
+      "z": -8
+    }
+  },
+  {
+    "id": 6,
+    "title": "EWIS Peripheral",
+    "href": "/peripheral",
+    "camPos": {
+      "x":8,
+      "y": -2.5,
+      "z": -9
+    },
+    "lookAt": {
+      "x": -11,
+      "y": -1,
+      "z": -4
+    }
+  },
+  {
+    "id": 7,
+    "title": "EWIS Toppan Forms",
+    "href": "/toppan-forms",
+    "camPos": {
+      "x": 8,
+      "y": 7,
+      "z": 1
+    },
+    "lookAt": {
+      "x": 3,
+      "y": 2,
+      "z": 2
+    }
+  },
+  {
+    "id": 8,
+    "title": "Banking Finance And Insurance",
+    "href": "/banking-finance-and-insurance",
+    "camPos": {
+      "x": 7,
+      "y": 5,
+      "z": 7
+    },
+    "lookAt": {
+      "x": 1,
+      "y": -1.5,
+      "z": -15
+    }
+  },
+  {
+    "id": 9,
+    "title": "Education",
+    "href": "/education",
+    "camPos": {
+      "x": 1,
+      "y": 3,
+      "z": 4
+    },
+    "lookAt": {
+      "x": 1,
+      "y": 2,
+      "z": 3
+    }
+  },
+  {
+    "id": 10,
+    "title": "Manufacturing",
+    "href": "/manufacturing",
+    "camPos": {
+      "x": 5,
+      "y": 2,
+      "z": 1
+    },
+    "lookAt": {
+      "x": 3,
+      "y": 2,
+      "z": 1
+    }
+  },
+  {
+    "id": 11,
+    "title": "Healthcare",
+    "href": "/healthcare",
+    "camPos": {
+      "x": 7,
+      "y": 5,
+      "z": 6
+    },
+    "lookAt": {
+      "x": -8,
+      "y": -1,
+      "z": -13
+    }
+  },
+  {
+    "id": 12,
+    "title": "Retail",
+    "href": "/retail",
+    "camPos": {
+      "x": 1,
+      "y": 4.35,
+      "z": 2
+    },
+    "lookAt": {
+      "x": 6,
+      "y": 2,
+      "z": 1
+    }
+  },
+  {
+    "id": 13,
+    "title": "Public",
+    "href": "/public",
+    "camPos": {
+      "x": 5,
+      "y": 1,
+      "z": 5.06
+    },
+    "lookAt": {
+      "x": 5,
+      "y": 2,
+      "z": 2
+    }
+  },
+  {
+    "id": 14,
+    "title": "Telecommunication",
+    "href": "/telecommunication",
+    "camPos": {
+      "x": 2,
+      "y": 5,
+      "z": 0
+    },
+    "lookAt": {
+      "x": 7,
+      "y": 4,
+      "z": 1
+    }
+  }
+]

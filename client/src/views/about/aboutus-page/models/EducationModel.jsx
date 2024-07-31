@@ -1,0 +1,162 @@
+import React, { useEffect, useRef } from "react";
+import { useGLTF } from "@react-three/drei";
+import { Box3, Vector3 } from "three";
+import model from "../../../../assets/models/aboutus/School.glb";
+
+export default function EducationModel(props) {
+  const { nodes, materials } = useGLTF(model);
+  const modelRef = useRef();
+
+  useEffect(() => {
+    if (modelRef.current) {
+      const box = new Box3().setFromObject(modelRef.current);
+      const center = new Vector3();
+      box.getCenter(center);
+      modelRef.current.position.sub(center); // Center the model
+    }
+  }, []);
+  return (
+    <group ref={modelRef} {...props} dispose={null} scale={0.011}>
+      <group name="Scene">
+        <group
+          name="Pillar2957"
+          rotation={[-Math.PI, 0.005, 0]}
+          scale={[0.008, 0.007, 0.007]}
+        >
+          <mesh
+            name="Untitled10105"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105.geometry}
+            material={materials["Material.5732"]}
+          />
+          <mesh
+            name="Untitled10105_1"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_1.geometry}
+            material={materials["white.003"]}
+          />
+          <mesh
+            name="Untitled10105_2"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_2.geometry}
+            material={materials["Black.001"]}
+          />
+          <mesh
+            name="Untitled10105_3"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_3.geometry}
+            material={materials["Material.5730"]}
+          />
+          <mesh
+            name="Untitled10105_4"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_4.geometry}
+            material={materials["Material.3776"]}
+          />
+          <mesh
+            name="Untitled10105_5"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_5.geometry}
+            material={materials["Material.2167"]}
+          />
+          <mesh
+            name="Untitled10105_6"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_6.geometry}
+            material={materials["Material.2168"]}
+          />
+          <mesh
+            name="Untitled10105_7"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_7.geometry}
+            material={materials["Material.2169"]}
+          />
+          <mesh
+            name="Untitled10105_8"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_8.geometry}
+            material={materials["Material.2732"]}
+          />
+          <mesh
+            name="Untitled10105_9"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_9.geometry}
+            material={materials["Material.7052"]}
+          />
+          <mesh
+            name="Untitled10105_10"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_10.geometry}
+            material={materials["Material.7040"]}
+          />
+          <mesh
+            name="Untitled10105_11"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_11.geometry}
+            material={materials["Material.7043"]}
+          />
+          <mesh
+            name="Untitled10105_12"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_12.geometry}
+            material={materials["Material.7053"]}
+          />
+          <mesh
+            name="Untitled10105_13"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_13.geometry}
+            material={materials.Black}
+          />
+          <mesh
+            name="Untitled10105_14"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_14.geometry}
+            material={materials["Material.7037"]}
+          />
+          <mesh
+            name="Untitled10105_15"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_15.geometry}
+            material={materials["Material.7038"]}
+          />
+          <mesh
+            name="Untitled10105_16"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_16.geometry}
+            material={materials["Material.052"]}
+          />
+          <mesh
+            name="Untitled10105_17"
+            castShadow
+            receiveShadow
+            geometry={nodes.Untitled10105_17.geometry}
+            material={materials["texture uv mapes .013"]}
+          />
+        </group>
+      </group>
+    </group>
+  );
+}
+
+useGLTF.preload(model);
+
+/*
+Auto-generated by: https://github.com/pmndrs/gltfjsx
+*/
